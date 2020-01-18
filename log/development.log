@@ -2132,3 +2132,10 @@ Processing by Api::V1::ProductsController#index as HTML
 Completed 200 OK in 23ms (Views: 10.3ms | ActiveRecord: 1.5ms)
 
 
+Started GET "/api/v1/products" for 127.0.0.1 at 2020-01-17 21:27:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Api::V1::ProductsController#index as JSON
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+Completed 200 OK in 21ms (Views: 7.0ms | ActiveRecord: 0.9ms)
+
+
